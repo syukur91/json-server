@@ -1,7 +1,20 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
+  "posts": {
+    "images": [
+        {
+            "id": 1,
+            "title": "image-one",
+            "author": "typicode",
+            "imageurl": "http://cdn3.nflximg.net/images/3093/2043093.jpg"
+        },
+        {
+            "id": 2,
+            "title": "image-two",
+            "author": "typicode",
+            "imageurl": "http://cdn3.nflximg.net/images/3093/2043093.jpg"
+        }
+    ]
+  },
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
